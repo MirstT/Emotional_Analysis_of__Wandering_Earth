@@ -4,8 +4,8 @@
 
 In this paper, in order to reflect the popularity of the movie "Wandering Earth" and its heat, and to verify whether the phenomenon of malicious brushing of the film by the network Navy exists, this paper uses the cat's eye PC interface to dynamically crawl over 520,000 reviews of "Wandering Earth" before March 5, 2019 by controlling the time parameters. After pretreatment, feature processing and visual analysis of these data, convolution neural network and cyclic neural network are introduced to conduct a deeper emotional analysis of the content of film review, which has certain guiding significance for future data analysis and prediction learning. 
 
-## Get_Data.py 1.利用爬虫获取影评数据，输出至input文件夹下
+### Get_Data.py 1.利用爬虫获取影评数据，输出至input文件夹下
 
-## Analyze_Data.py 2.对获取的影评数据进行可视化分析，输出至output文件夹下（需要用到echarts中国地图包）
+### Analyze_Data.py 2.对获取的影评数据进行可视化分析，输出至output文件夹下（需要用到echarts中国地图包）
 
-## Comments_Group.py 3.影评数据预处理，输出至comments文件夹下，以便后续情感分析数据导入
+### Comments_Group.py 3.影评数据预处理，输出至comments文件夹下，以便后续情感分析数据导入
